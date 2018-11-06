@@ -1,0 +1,42 @@
+04-05-6789 Jewell Numbers (1-15, 17, 30, 40)
+Hardware
+	BC*
+	LW*
+	NC*
+	NLC*
+	NM*
+	WB*
+	WS*
+	SHC*
+	SM2*
+	BM*
+	BHM*
+	SNC*
+	BHC*
+	FHC*
+	HLW*
+	
+Fittings:
+24xx,25xx,26xx,27xx, 34xx, 39xx, 403-xx, 41xx, 45xx, 50xx, 54xx, 56xx, 64xx, 65xx, 66xx, 68xx, 69xx, 70xx, 72xx, 8xx-T*, 90xx, 92xx, 93xx, 95xx, B6xxx, 
+HLO-*, TE-*, TE90-*, W187-*, W58-*, W189-*, W60-*, W63-*, W182-*, W172-*, W176-*, W184-*, W185-*, W186-*
+
+Material Parts
+	Angle
+	Grating
+	Boss
+	Button Grip
+	Channel
+	FB
+	Grab Handle
+	Grip Strut
+	Hinges
+	oRing
+	Punch Plate
+	Rectangle
+	SolidRound
+	Tube (Hyd, Rect, Round, Square)
+	Washers
+	Wire Mesh
+
+Vendor Parts
+	Anything and Everything

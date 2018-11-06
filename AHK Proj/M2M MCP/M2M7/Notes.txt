@@ -1,0 +1,27 @@
+IfWinExist, Made2Manage
+    Winactivate
+else
+	return
+	
+Alt+T 'INV': Item Master
+"Item Master [INV]" Visable Window Text
+controlfocus, WindowsForms10.EDIT.app.0.2bf8098_r13_ad120
+controlsend, WindowsForms10.EDIT.app.0.2bf8098_r13_ad120, testing testing
+
+Part Number: WindowsForms10.EDIT.app.0.2bf8098_r13_ad12
+Rev: WindowsForms10.EDIT.app.0.2bf8098_r13_ad13
+Description: WindowsForms10.EDIT.app.0.2bf8098_r13_ad16
+Source: WindowsForms10.EDIT.app.0.2bf8098_r13_ad17
+Product Class WindowsForms10.EDIT.app.0.2bf8098_r13_ad18
+Group Code WindowsForms10.EDIT.app.0.2bf8098_r13_ad19
+U/M for Vendor WindowsForms10.EDIT.app.0.2bf8098_r13_ad110
+U/M for Inventory WindowsForms10.EDIT.app.0.2bf8098_r13_ad111
+ABC Code WindowsForms10.EDIT.app.0.2bf8098_r13_ad122
+Location WindowsForms10.EDIT.app.0.2bf8098_r13_ad135
+Drawing Size WindowsForms10.EDIT.app.0.2bf8098_r13_ad116
+Revision Date WindowsForms10.EDIT.app.0.2bf8098_r13_ad117
+
+Memo ad120
+Comment ad121
+
+"F8": Close Active Window

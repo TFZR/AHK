@@ -1,0 +1,67 @@
+ACCU:    Accuload
+|ACCU-D:  Accuload Diesel
+|ACCU-E:  Accuload Elec.
+|ADAPT:   Adaptors
+|ASS'Y:   Assembly
+|BELLY:   FG-Belly Pans
+|BOOM:    FG-Booms
+|BOSS:    Boss
+|BRKT:    Brackets
+|CABGRD:  Cab Guards
+|CABPAR:  Cab Parts
+|CABPLT:  Cab Plate Parts
+|CABTLT:  FG-Cab Tilt
+|CAST:    Castings
+|CATWLK:  FG-Catwalks
+|CLAM:    FG-Clamshells
+|CLAMP:   Clamps
+|CMEL:    Electrical
+|CMSS:    Shims
+|CRRIER:  Base Carrier
+|CWT:     FG-Counterweights
+|CYLPAR:  Cylinder Parts
+|DENIS:   FG-Denis Heads
+|ENGINE:  Engineering
+|FILTER:  Filters
+|GENSET:  Genset Components
+|GRAPPA:  Grapple Parts
+|GUARD:   FG-Guarding
+|HAND:    FG-Handrails
+|HYCAR:   Hydraulic Cartridges
+|HYCR:    Cylinder
+|HYFG:    Fittings/ Hoses
+|HYKIT:   Hydraulic Kits
+|HYMR:    Motors
+|HYSE:    Seals
+|HYSM:    Hydraulic Manifold
+|HYVE:    Valve Assembly
+|INSTAL:  Installation
+|JRB:     JRB Buckets
+|LINK:    FG-Links
+|LOGGRP:  FG-Log Grapple
+|MISC:    Micellaneous
+|MPBH:    Bushings
+|MPBR:    Bearings
+|MPFN:    Bolt, Nut, Etc.
+|MPPT:    Paint
+|PINHD:   Pin Heads & Retainers
+|PINS:    Pins
+|PLATE:   Raw-Plate Parts
+|PLUMB:   FG-Plumbing
+|PUMP:    Pumps
+|R CAB:   FG-Rear Entry Cab
+|RISER:   FG-Cab Risers
+|ROCK:    FG-Rockguards
+|ROLL:    Rollers
+|ROTARY:  Rotary Unions
+|S CAB:   FG-Side Entry Cab
+|SCREEN:  FG-Screens
+|SCRPGP:  FG-Scrap Grapple
+|SLACK:   FG-Slack Kickers
+|TUBES:   Raw-Finished Tubes
+|UNDER:   FG-Underhouse
+|WCHASY:  FG-Winch Assemblies
+|WELD:    Weldments
+|WINCH:   Winches
+|WINDOW:  Windows & Wipers
+|WIPART:  Winch Parts

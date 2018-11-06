@@ -1,0 +1,72 @@
+;# - Win
+;^ - Control
+;! - Alt
+;+ - Shift
+#installkeybdhook
+
+menu, Tray, icon, %A_ScriptDir%\Gear.ico, 1, 1
+menu, Tray, Tip, AHK Essentials
+
+;One Liners--------------------------------------------------------------------------------
+#r::Reload			;Reloads this script
+:?*:...::{ASC 0133}	;replaces an ellipsis... with an ellipsis… (saves 2chr in a tweet)
+^4::Send {ASC 0162} ;Dollars & Cents - Shift-4::$ & Ctrl-4::¢
+::mmm::{ASC 269}{ASC 270}	;musical notes (unicode, only works some places)
+::deg::{BS}{ASC 0176}	;° in place of {space}deg (type 123{space}deg to get 123°)
+:C:crt::{ASC 0169}{ASC 0174}{ASC 0153} ;crt::©®™ Copyright, Registerd, Trademark - lower case CRT. 
+;------------------------------------------------------------------------------------------
+
+^NumpadEnter::
+ifwinactive, Paladin
+	send !{F5}
+return
+
+^!F9::
+click right
+send v
+sleep 200
+send {Enter}
+sleep 200
+send ^w
+return
+
+;PDM New Part Number, needs lots of work.
+!^+F12::
+;mapped to scroll left
+;adjust the tabbed lines to get the correct menu item location
+MouseGetPos, xpos, ypos
+mph := 2
+click ;to reset from previous new part
+sleep 200
+click right
+mousemove, 20, 125, mph, R
+click
+mousemove, 84, 0, mph, R
+mousegetpos, xst, yst
+PixelSearch, xtop, ytop, xst, yst, xst, 0, 0xAAA6A7
+;msgbox, %xtop%, %ytop%
+mousemove, xtop, ytop, mph
+mousemove, 30, 57, mph, R
+	mousemove, 0, 70, mph, R ;adjust for guarding (06-xx-xxxx)
+click
+mousemove, 250, 0, mph, R
+mousemove, 0, 78, mph, R
+	mousemove, 0, 15, mph, R ;adjust for plates (06-05-xxxx)
+	;click ;create new p/n wherever the mouse has landed
+	;mousemove, xpos, ypos, mph ;return to that which you've come
+return
+
+;MDT Copy W/Base Point and Paste as Block (Ctrl-Shift-C and Ctrl-Shift-V)
+^+c::
+settitlematchmode 1
+ifwinactive, Mechanical Desktop
+	send _copybase{enter}
+return
+
+^+v::
+settitlematchmode 1
+ifwinactive, Mechanical Desktop
+	send _pasteblock{enter}
+return
+
++NumpadSub:: send _
